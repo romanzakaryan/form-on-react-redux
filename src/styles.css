@@ -1,0 +1,53 @@
+body {
+  padding: 20px;
+}
+
+.login-page .login-header {
+  color: #3366ff;
+}
+
+label {
+  color: #3366ff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+label p {
+  margin-bottom: 5px;
+}
+
+input {
+  border-radius: 5px;
+  border: 3px solid #3366ff;
+  padding: 5px 10px;
+  outline: none;
+}
+
+button[type="submit"] {
+  background: #3366ff;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 3px solid #3366ff;
+}
+
+button[disabled] {
+  background: grey;
+  opacity: 0.5;
+  border: 3px solid grey;
+}
+
+.input-place.input-correct {
+  border-color: green;
+}
+
+.input-place.input-incorrect {
+  border-color: red;
+}
+
+.login-form p {
+  color: red;
+  margin-top: 5px;
+  font-size: 12px;
+}
